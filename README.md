@@ -6,7 +6,7 @@ Welcome to my C++ showcase! This repository serves as a portfolio of projects I'
 
 ## Projects
 
-1. ✈️[Airline Reservation System](https://github.com/JGlogowski1/Cpp/blob/main/C%2B%2B%20Programs/Airline2.0/README.md): Allows users to manage bookings, select flights, and assign seats.
+1. ✈️[Airline Reservation System](https://github.com/JGlogowski1/Cpp/tree/main/C%2B%2B%20Programs/Airline2.0): Allows users to manage bookings, select flights, and assign seats.
 2. [Project 2](project2/): Brief description of Project 2.
 3. [Project 3](project3/): Brief description of Project 3.
 
