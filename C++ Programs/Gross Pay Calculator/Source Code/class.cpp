@@ -1,6 +1,8 @@
-//
-// Created by W0453648 on 2023-11-30.
-//
+//Title: ICA2 Gross Pay Problem
+//Author: Joe Glogowski
+//Date: October 12, 2023
+//Filename: class.cpp
+//Purpose: Employee Class Implementation File
 
 #include <string>
 #include "class.h"
@@ -34,5 +36,5 @@ float Employee::getOvertime() const {
 }
 
 float Employee::getGrossPay() const {
-    return hoursWorked * wage;
+    return hoursWorked * wage + getOvertime();
 }
