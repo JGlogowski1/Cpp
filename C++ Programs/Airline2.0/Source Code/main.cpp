@@ -28,7 +28,6 @@ int main() {
     Accessible myAccessibleFlyer;
     PrivateJet myPrivateJet;
 
-
     do {
         choice = displayMenu(myFlyer, aircraft, myAccessibleFlyer);
 
