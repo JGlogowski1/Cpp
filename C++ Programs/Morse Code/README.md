@@ -1,39 +1,35 @@
-Morse Code Translator
-Author: Joe Glogowski
+# Morse Code Translator
 
-Date: November 23, 2023
+**Author**: Joe Glogowski  
+**Date**: November 23, 2023  
+**Purpose**: Assignment 4  
+**Filename**: morseCode.cpp
 
-Purpose: Assignment 4
+## Overview
 
-Filename: morseCode.cpp
+The Morse Code Translator is a C++ program developed by Joe Glogowski for translating text to Morse code and vice versa. It provides users with options to input text or Morse code and outputs the translated result accordingly. The program employs maps for efficient translation between characters and their Morse code representations.
 
-Description
-The Morse Code Translator program, authored by Joe Glogowski, is designed to translate text to Morse code and vice versa. It features functionality to read input from the terminal or from a file, allowing users to convert text to Morse code or Morse code to text seamlessly. The program employs maps for efficient translation between characters and their Morse code representations.
+## Features
 
-Functionality
-The program offers the following functionality:
+- **Text to Morse Code Translation**: Converts text input into Morse code.
+- **Morse Code to Text Translation**: Translates Morse code input into readable text.
+- **Terminal and File Input**: Supports input from both the terminal and text files.
+- **User-Friendly Interface**: Interacts with users through clear prompts and displays.
 
-Translate from Text to Morse Code:
+## Usage
 
-Users can input text either from the terminal or from a file.
-The program converts the text to Morse code and displays the translated output.
-Translate from Morse Code to Text:
+1. **Select Translation Type**: Choose the type of translation you want to perform.
+2. **Input Text or Morse Code**: Enter the text or Morse code you want to translate.
+3. **View Translated Output**: See the translated output displayed on the screen.
 
-Users can input Morse code either from the terminal or from a file.
-The program converts the Morse code to text and displays the translated output.
-Usage
-Select Translation Type:
+## Example Usage
 
-Users are prompted to choose the type of translation they want to perform.
-Input Text or Morse Code:
+```plaintext
+$ ./morseCode
+1. Translate from Text to Morse Code
+2. Translate from Morse Code to Text
+3. Exit
+Enter your choice: 1
 
-Depending on the selected translation type, users can input text or Morse code either directly in the terminal or from a file.
-View Translated Output:
-
-The program displays the translated output, either in Morse code or as text, depending on the selected translation type.
-Showcase
-This code demonstrates the functionality of the Morse Code Translator program, showcasing the author's implementation of text-to-Morse and Morse-to-text translation using C++.
-
-
-
-
+Enter text: Hello World
+Output: .... . .-.. .-.. ---   .-- --- .-. .-.. -..
