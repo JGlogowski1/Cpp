@@ -1,25 +1,39 @@
-# ICA2 Gross Pay Problem
+# Homework Tracker
 
-**Title**: ICA2 Gross Pay Problem  
-**Group**: Joe Glogowski, Danny, Jacob, Michele
-**Date**: October 12, 2023  
-**Filenames**: grossPay.cpp, class.h, class.cpp  
-**Purpose**: Calculate gross pay for employees  
+**Title**: Homework Tracker  
+**Author**: Joe Glogowski, Danny, Jacob, Michele  
+**Date**: [Date of completion]  
+**Filename**: [Main program filename, e.g., `homeworkTracker.cpp`]  
 
 ## Overview
 
-The ICA2 Gross Pay Problem is a program designed to calculate the gross pay for employees based on the hours worked and the hourly wage. It utilizes classes to encapsulate employee data and functions for easy management and calculation.
+The Homework Tracker program is designed to help users manage their homework assignments. It provides features for adding new assignments, viewing existing ones, saving assignments to a file, loading assignments from a file, and searching for assignments by title.
 
-## Files
+## Features
 
-1. **grossPay.cpp**: Contains the main program logic, including user input and output.
-2. **class.h**: Header file for the Employee class, declaring its member variables and functions.
-3. **class.cpp**: Implementation file for the Employee class, defining its member functions.
+- **Add Homework**: Users can input details for a new homework assignment, including subject, title, description, due date, and completion status.
+- **View Homework**: Users can view all existing homework assignments, along with their details such as subject, title, description, due date, and completion status. They can also update the completion status of each assignment.
+- **Save to File**: Users can save all homework assignments to a file for future reference.
+- **Load from File**: Users can load previously saved homework assignments from a file.
+- **Search by Title**: Users can search for a specific homework assignment by its title.
 
 ## Usage
 
-- **Input**: Users are prompted to enter their name, hours worked, and hourly wage.
-- **Processing**: The program calculates the gross pay based on the hours worked and the wage, including overtime pay if applicable.
-- **Output**: The program displays the name of the employee and their gross pay.
+1. **Add Homework**: Select option 1 from the menu and follow the prompts to input details for a new homework assignment.
+2. **View Homework**: Select option 2 from the menu to view all existing homework assignments.
+3. **Save to File**: Select option 3 from the menu to save all homework assignments to a file.
+4. **Load from File**: Select option 4 from the menu to load previously saved homework assignments from a file.
+5. **Search by Title**: Select option 5 from the menu to search for a specific homework assignment by its title.
+6. **Exit the Program**: Select option 6 from the menu to exit the program.
 
 ## Example
+
+```cpp
+// Example usage of the Homework Tracker program
+#include <iostream>
+// Include other necessary headers
+
+int main() {
+    // Main program logic
+    return 0;
+}
