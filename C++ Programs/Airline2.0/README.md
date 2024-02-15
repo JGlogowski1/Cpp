@@ -1,7 +1,16 @@
 # Airline Reservation System
 
-This program manages seat reservations on an airplane. Users can enter their information, choose a plane, select a class, assign a seat, and manage waiting lists.
+**Group Project**: This system is a collaborative effort developed by Joe, Michele, and Jacob.
 
+**User Interaction**: The system interacts with users through a menu-driven interface, where users can input their information, choose aircraft, select flight classes, and assign seats.
+
+**Data Handling**: User information such as name, last name, and date is collected. Aircraft information, including model and capacity, is managed. The system also handles flight classes and seat assignments.
+
+**Classes and Inheritance**: The system seems to utilize object-oriented programming principles, with classes like Aircraft, Flyer, Accessible, and PrivateJet. These classes likely represent different aspects of the reservation system, with inheritance possibly indicating relationships between them.
+
+**File Handling**: There are indications of file handling, likely for storing user information, seat assignments, and boarding passes.
+
+**Error Handling**: Basic error handling is present, such as verifying user information and handling invalid menu choices.
 ## Usage
 
 1. **Enter User Information**: Provide first name, last name, and birthday.
@@ -22,8 +31,3 @@ This program manages seat reservations on an airplane. Users can enter their inf
 
 This code demonstrates the functionality of the Airline Reservation System. It's designed for showcasing purposes only.
 
-## Authors
-
-- Joe
-- Michele
-- Jacob
