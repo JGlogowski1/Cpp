@@ -2,8 +2,8 @@
 
 **Title**: Homework Tracker  
 **Author**: Joe Glogowski, Danny, Jacob, Michele  
-**Date**: [Date of completion]  
-**Filename**: [Main program filename, e.g., `homeworkTracker.cpp`]  
+**Date**: 
+**Filename**: main.cpp
 
 ## Overview
 
@@ -27,13 +27,3 @@ The Homework Tracker program is designed to help users manage their homework ass
 6. **Exit the Program**: Select option 6 from the menu to exit the program.
 
 ## Example
-
-```cpp
-// Example usage of the Homework Tracker program
-#include <iostream>
-// Include other necessary headers
-
-int main() {
-    // Main program logic
-    return 0;
-}
