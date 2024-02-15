@@ -8,7 +8,7 @@ Welcome to my C++ showcase! This repository serves as a portfolio of projects I'
 
 1. ✈️[Airline Reservation System](https://github.com/JGlogowski1/Cpp/tree/main/C%2B%2B%20Programs/Airline2.0): Allows users to manage bookings, select flights, and assign seats.
    
-2. [Project 3](https://github.com/JGlogowski1/Cpp/tree/main/C%2B%2B%20Programs/BattleShip): Simulates a game of Battleship where the player strategically places ships on a grid and tries to sink them by guessing their locations.
+2. 🚢[Battleship](https://github.com/JGlogowski1/Cpp/tree/main/C%2B%2B%20Programs/BattleShip): Simulates a game of Battleship where the player strategically places ships on a grid and tries to sink them by guessing their locations.
    
 3. 👨‍🦯[Morse Code Translator](https://github.com/JGlogowski1/Cpp/tree/main/C%2B%2B%20Programs/Morse%20Code): Translates text to Morse code or Morse code to text based on user input from the terminal or a file.
    
