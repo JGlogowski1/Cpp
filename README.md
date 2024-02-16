@@ -15,8 +15,10 @@ Welcome to my C++ showcase! This repository serves as a portfolio of projects I'
 4. 💵[Gross Pay Calculator](https://github.com/JGlogowski1/Cpp/tree/main/C%2B%2B%20Programs/Gross%20Pay%20Calculator): Calculate the gross pay for employees based on the hours worked and the hourly wage.
    
 5. 📝[Homework Tracker](https://github.com/JGlogowski1/Cpp/tree/main/C%2B%2B%20Programs/Homework%20Tracker): Help users manage their homework assignments.
-    
-6. 🧮[Average Grade Calculator](https://github.com/JGlogowski1/Cpp/tree/main/C%2B%2B%20Programs/Average%20Grade%20Calculator): Simple program that calculates the average grade from user input.
+   
+7. 🎲[Monty Hall](https://github.com/JGlogowski1/Cpp/tree/main/C%2B%2B%20Programs/Monty%20Hall): Simulates the monty hall problem.
+   
+8. 🧮[Average Grade Calculator](https://github.com/JGlogowski1/Cpp/tree/main/C%2B%2B%20Programs/Average%20Grade%20Calculator): Simple program that calculates the average grade from user input.
 
 ## How to Navigate
 
