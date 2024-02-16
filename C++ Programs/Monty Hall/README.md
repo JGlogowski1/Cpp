@@ -1,35 +1,34 @@
-# Morse Code Translator
+# Monty Hall Problem Simulator
 
-**Author**: Joe Glogowski  
-**Date**: November 23, 2023  
-**Purpose**: Assignment 4  
-**Filename**: morseCode.cpp
+**Author**: Joe  
+**Date**: Feburary 15, 2024  
+**Purpose**: Simulation of the Monty Hall problem   
+**Filename**: main.cpp
 
 ## Overview
 
-The Morse Code Translator is a C++ program developed by Joe Glogowski for translating text to Morse code and vice versa. It provides users with options to input text or Morse code and outputs the translated result accordingly. The program employs maps for efficient translation between characters and their Morse code representations.
+The Monty Hall Problem Simulator is a C++ program that simulates the famous Monty Hall problem. It allows users to run multiple simulations of the Monty Hall problem, where they choose one of three doors, one of which hides a prize (car), and then have the option to switch their choice after one of the non-chosen doors (revealed by the host) is opened.
 
 ## Features
 
-- **Text to Morse Code Translation**: Converts text input into Morse code.
-- **Morse Code to Text Translation**: Translates Morse code input into readable text.
-- **Terminal and File Input**: Supports input from both the terminal and text files.
-- **User-Friendly Interface**: Interacts with users through clear prompts and displays.
+- **Simulation of Monty Hall Problem**: Simulates the Monty Hall problem according to user input.
+- **Input Validation**: Ensures that user inputs are valid and handles errors gracefully.
+- **Randomization**: Utilizes the `rand()` function to randomize the location of the car and the user's initial choice.
+- **Option to Switch Choice**: Offers users the option to switch their choice after a door is revealed by the host.
+- **Calculation of Win Percentage**: Calculates and displays the average percentage of wins based on simulation results.
 
 ## Usage
 
-1. **Select Translation Type**: Choose the type of translation you want to perform.
-2. **Input Text or Morse Code**: Enter the text or Morse code you want to translate.
-3. **View Translated Output**: See the translated output displayed on the screen.
+1. **Enter Number of Simulations**: Input the number of simulations you want to run.
+2. **Choose Switching Option**: Decide whether you want to switch your choice after the host opens a door (y/n).
+3. **View Results**: See the average percentage of wins based on the simulations.
 
 ## Example Usage
 
 ```plaintext
-$ ./morseCode
-1. Translate from Text to Morse Code
-2. Translate from Morse Code to Text
-3. Exit
-Enter your choice: 1
-
-Enter text: Hello World
-Output: .... . .-.. .-.. ---   .-- --- .-. .-.. -..
+$ ./montyHall
+Welcome to the Monty Hall problem
+Please enter the number of simulations you want to run: 10000
+You have chosen to run 10000 simulations
+Do you want to switch your choice after the host opens a door? (y/n): y
+The average percentage of wins is 66.73%
